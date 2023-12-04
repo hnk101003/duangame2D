@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7831862753434188340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7831862753434188342}
+  - component: {fileID: 7831862753434188341}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7831862753434188342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7831862753434188340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 190.0067, y: -11.2766, z: -3.5424786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7831862753434188341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7831862753434188340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086f3ef6de257af40a408f819f6162d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  coin: {fileID: 8300000, guid: b239c90b3a80eac40a36ebaf4e3839a0, type: 3}
+  goomba: {fileID: 8300000, guid: 02de9579f5bfe0d4c9530b11d2776a24, type: 3}
+  breakBlock: {fileID: 8300000, guid: 505cb3fcb890eb54986933c5b3c2e5a1, type: 3}
+  pipe: {fileID: 8300000, guid: 8880c6a4d1c584447b25c76741930ea2, type: 3}
+  jump: {fileID: 8300000, guid: 77f6ea46b36c0124ba1d3fe0598f7c89, type: 3}
+  megaJump: {fileID: 8300000, guid: b69d0de691ef3bd4a9a00947e2ce38f2, type: 3}
+  death: {fileID: 8300000, guid: 81f4fa002db7e8043bfdda6b1b177425, type: 3}
+  flag: {fileID: 8300000, guid: 54df722170883904bafcea83e6301318, type: 3}
+  win: {fileID: 8300000, guid: 3aefa95acbae02d44a24b085927e7f95, type: 3}
+  beep: {fileID: 8300000, guid: 94cedcac509042e48a84c5c13e8c3792, type: 3}
+  bump: {fileID: 8300000, guid: 98dc50d8328136d4bb1295df3b5b3f31, type: 3}
+  theme: {fileID: 8300000, guid: a1081b8483b0d0548aadc19eca0583a0, type: 3}
